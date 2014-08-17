@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+<test name="Naukari Profile Update">
+    <classes>
+        <class name="com.apalya.resume_update.test.update_test" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]" parallel="false">
+  <test name="Naukari Profile Update(failed)">
+    <classes>
+      <class name="com.apalya.resume_update.test.update_test">
+        <methods>
+          <include name="profileupdate"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
