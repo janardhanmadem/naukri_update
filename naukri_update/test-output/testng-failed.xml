@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Naukari Profile Update]">
+  <test name="Naukari Profile Update(failed)">
     <classes>
       <class name="com.apalya.resume_update.test.update_test">
         <methods>
@@ -9,5 +9,5 @@
         </methods>
       </class> <!-- com.apalya.resume_update.test.update_test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Naukari Profile Update(failed) -->
+</suite> <!-- Failed suite [Naukari Profile Update] -->

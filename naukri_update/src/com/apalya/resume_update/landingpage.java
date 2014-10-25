@@ -1,8 +1,10 @@
 package com.apalya.resume_update;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -26,11 +28,16 @@ public class landingpage {
 	public sendingsms update() throws Throwable{
 		Logger app_logs = Logger.getLogger("devpinoyLogger");
 		Thread.sleep(2000L);
-		header_link.click();
+		//header_link.click();
 		app_logs.debug("clicking on profile update link");
 		//header_link.click();
 		//Thread.sleep(2000L);
-		update_link.click();
+		WebElement rootnode=driver.findElement(By.xpath("//*[@id='mNav']/div/ul/li[4]/a"));
+		Actions act=new Actions(driver);
+		act.moveToElement(rootnode).build().perform();
+		driver.findElement(By.xpath("//*[@id='mnaukNav']/ul[1]/li[1]/div/a[1]")).click();
+				
+		//update_link.click();
 		submit_button.click();
 		app_logs.debug("profile updated successfully");
 		logout.click();

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="My Sample Suite">
+<suite name="Naukari Profile Update">
 
 
 <test name="Naukari Profile Update">

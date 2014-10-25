@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [My Sample Suite]" parallel="false">
+<suite name="Failed suite [My Sample Suite]">
   <test name="Naukari Profile Update(failed)">
     <classes>
       <class name="com.apalya.resume_update.test.update_test">
         <methods>
           <include name="profileupdate"/>
         </methods>
-      </class>
+      </class> <!-- com.apalya.resume_update.test.update_test -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Naukari Profile Update(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

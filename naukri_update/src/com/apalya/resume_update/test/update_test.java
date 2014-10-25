@@ -33,9 +33,9 @@ public class update_test {
 	
 		driver.manage().window().maximize();
 		login update=PageFactory.initElements(driver, login.class);
-		landingpage lp=update.dologin("mademvv@gmail.com", "apalya01");
+		landingpage lp=update.dologin("kumarms.ms@gmail.com", "ssmgtkmsammukutty87");
 		sendingsms ms=lp.update();
-		ms.sms("8179653520", "Naukari profile successfully updated");
+		ms.sms("8978430137", "Naukari profile successfully updated");
 		driver.quit();
 		
 		
